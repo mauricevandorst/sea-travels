@@ -485,20 +485,16 @@ ul.email li i {
     width: 100%;
     display: flex;
     justify-content: center;
-    /* Centers horizontally */
     align-items: center;
-    /* Centers vertically */
     overflow: hidden;
 }
 
 #banner1 .carousel-item img {
     height: 80vh;
+    width: 100%;
     margin: auto;
-    /* Center the image horizontally */
     display: block;
-    /* Removes any extra space below the image */
     object-fit: cover;
-    /* Ensures the image covers the space */
 }
 
 .willom {
@@ -564,6 +560,9 @@ ul.email li i {
     padding-top: 90px;
 }
 
+.about-images {
+    max-width: 640px;
+}
 
 .about_img figure {
     margin: 0;

@@ -43,6 +43,10 @@ File Name: responsive.css
         max-width: inherit;
     }
 
+    .about-images {
+        display: none;
+    }
+
     .titlepage h2 {
         font-size: 37px;
         line-height: 37px;
@@ -100,6 +104,10 @@ File Name: responsive.css
 
     .about .titlepage {
         max-width: inherit;
+    }
+
+    .about-images {
+        display: none;
     }
 
     .d_none {
@@ -206,6 +214,10 @@ File Name: responsive.css
 
     .about .titlepage {
         max-width: inherit;
+    }
+
+    .about-images {
+        display: none;
     }
 
     .custom {
