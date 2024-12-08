@@ -79,6 +79,9 @@ File Name: responsive.css
 
 @media (min-width: 576px) and (max-width: 767px) {
 
+    .expert-2 {
+        display: none;
+    }
 
     .willom h1 {
         font-size: 49px;
@@ -184,6 +187,10 @@ File Name: responsive.css
 }
 
 @media (max-width: 575px) {
+
+    .expert-2 {
+        display: none;
+    }
 
     .logo {
         text-align: left;
