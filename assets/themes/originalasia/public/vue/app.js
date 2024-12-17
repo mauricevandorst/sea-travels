@@ -8360,9 +8360,6 @@ const _sfc_main$l = {
       if (favoriteCount) {
         favoriteCount.innerHTML = favorites.length;
       }
-      if (mobileFavoriteCount) {
-        mobileFavoriteCount.innerHTML = favorites.length;
-      }
     };
     updateFavoriteCount();
     onMounted(() => {
@@ -9002,9 +8999,6 @@ const _sfc_main$f = {
       if (favoriteCount) {
         favoriteCount.innerHTML = favorites.length;
       }
-      if (mobileFavoriteCount) {
-        mobileFavoriteCount.innerHTML = favorites.length;
-      }
     };
     updateFavoriteCount();
     onMounted(() => {
@@ -9578,9 +9572,6 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
       if (favoriteCount) {
         favoriteCount.innerHTML = storedFavorites.length;
       }
-      if (mobileFavoriteCount) {
-        mobileFavoriteCount.innerHTML = storedFavorites.length;
-      }
       if (favoriteButton) {
         favoriteButton.innerText = "Maak van deze " + storedFavorites.length + " een voorstel op maat";
       }
@@ -9834,9 +9825,6 @@ const _sfc_main$1 = {
       let mobileFavoriteCount = document.querySelector(".mobile-navbar__item-badge");
       if (favoriteCount) {
         favoriteCount.innerHTML = favorites.length;
-      }
-      if (mobileFavoriteCount) {
-        mobileFavoriteCount.innerHTML = favorites.length;
       }
     };
     updateFavoriteCount();
