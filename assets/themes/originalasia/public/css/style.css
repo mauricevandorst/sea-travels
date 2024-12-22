@@ -3736,10 +3736,6 @@ hr {
     display: none
 }
 
-.round-trip__container {
-    margin-bottom: 80px
-}
-
 .round-trip__chapeau {
     margin-bottom: 40px
 }
@@ -9944,7 +9940,7 @@ cursor .proposal-form__content::-webkit-scrollbar-thumb:hover {
     display: flex;
     justify-content: center;
     margin-inline: auto;
-    max-width: 1280px;
+    max-width: 90%;
 }
 
 @media (min-width: 768px) {
@@ -10019,11 +10015,14 @@ cursor .proposal-form__content::-webkit-scrollbar-thumb:hover {
 }
 
 .where-to-next__list-item p {
-    font-weight: 500;
+    margin: 20px 0 0 0;
+    font-weight: 600;
+    letter-spacing: .05rem;
     font-size: 16px;
     line-height: 1.5;
     color: rgba(0,0,0,1);
     text-decoration: none;
+    font-family: Pangea Text,Helvetica,Arial,sans-serif;
 }
 
 .where-to-next__button-container {
