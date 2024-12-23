@@ -9953,9 +9953,6 @@ cursor .proposal-form__content::-webkit-scrollbar-thumb:hover {
     margin: 40px auto;
 }
 
-@media (min-width: 768px) {
-}
-
 .where-to-next__subtext {
     opacity: 1;
     color: rgba(75, 75, 75, 0.7);
@@ -9970,6 +9967,13 @@ cursor .proposal-form__content::-webkit-scrollbar-thumb:hover {
 .where-to-next__header {
     margin: 0 50px;
     display: block;
+}
+
+@media (max-width: 768px) {
+    .where-to-next__header {
+        margin: 0;
+        display: block;
+    }
 }
 
 .where-to-next__header-container {
