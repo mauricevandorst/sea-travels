@@ -3555,7 +3555,7 @@ hr {
     flex-direction: row;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between
+    justify-content: center
 }
 
 .topfooter__title {
@@ -9860,6 +9860,10 @@ cursor .proposal-form__content::-webkit-scrollbar-thumb:hover {
 
 .header__choose-theme {
     color: rgba(255,255,255,0.6) !important;
+}
+
+.header__choose-theme i {
+    color: rgba(255,255,255,1) !important;
 }
 
 .slider-hero__slide-action {
