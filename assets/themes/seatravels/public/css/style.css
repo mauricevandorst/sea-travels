@@ -1380,13 +1380,6 @@ hr {
     padding-right: 24px
 }
 
-.menu__link.menu__link--favorites {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    gap: 4px
-}
-
 .menu__item-badge {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
